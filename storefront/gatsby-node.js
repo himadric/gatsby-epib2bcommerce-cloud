@@ -46,8 +46,8 @@ exports.createPages = ({ graphql, actions }) => {
       return Promise.reject(res.errors)
     }
 
-    res.data.allProduct.nodes.forEach( node  => {
-      createPage({
+    res.data.allProduct.nodes.forEach( async(node)  => {
+      await createPage({
         path: node.productDetailUrl,
         component: productTemplate,
       })
@@ -65,8 +65,8 @@ exports.createPages = ({ graphql, actions }) => {
       return Promise.reject(res.errors)
     }
 
-    res.data.allProduct.distinct.forEach( parentid  => {
-      createPage({
+    res.data.allProduct.distinct.forEach( async(parentid)  => {
+      await createPage({
         path: `/${parentid}`,
         component: productListTemplate,
         context: {
