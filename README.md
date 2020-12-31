@@ -8,3 +8,4 @@ In this project I built an Episerve B2B Commerce Cloud Storefront using JAMStack
 ![](Epi%20B2B%20Commerce%20Cloud%20Storefron%20Animation.gif)
 
 ## Implementation Approach
+For the storefront to show the products from ecommerce system, we need to get data from ecommerce system and convert it Gatsby's GraphQL schema format.
