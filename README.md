@@ -5,6 +5,6 @@
 
 In this project I built an Episerve B2B Commerce Cloud Storefront using JAMStack archtecture. I built the website using GatsbyJs and deployed in [Surge](https://surge.sh/) and [Netlify](https://www.netlify.com/). This is a catalog only storefront works as the below animation shows. There are bunch of products renederd from Epi B2B Commerce Cloud on the home page. You can navigate to product detail page and see products by category by clicking on the category link on products on the home page.
 
-![](Epi B2B Commerce Cloud Storefron Animation.gif)
+![](Epi%20B2B%20Commerce%20Cloud%20Storefron%20Animation.gif)
 
 ## Implementation Approach
