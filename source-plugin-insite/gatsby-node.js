@@ -25,14 +25,14 @@ const client = new ApolloClient({
         )
       },
       new WebSocketLink({
-        uri: `ws://localhost:4000`, // or `ws://gatsby-source-plugin-api.glitch.me/`
+        uri: `ws://graphql-wrapper-epib2bcommerce.herokuapp.com`, 
         options: {
           reconnect: true,
         },
         webSocketImpl: WebSocket,
       }),
       new HttpLink({
-        uri: "http://localhost:4000", // or `https://gatsby-source-plugin-api.glitch.me/`
+        uri: "https://graphql-wrapper-epib2bcommerce.herokuapp.com", 
         fetch,
       })
     ),
