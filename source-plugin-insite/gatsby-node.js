@@ -1,4 +1,4 @@
-const { ApolloClient } = require("apollo-client")
+const { ApolloClient } = require("./node_modules/apollo-client")
 const { InMemoryCache } = require("apollo-cache-inmemory")
 const { split } = require("apollo-link")
 const { HttpLink } = require("apollo-link-http")
