@@ -1,7 +1,7 @@
 # Episerver B2B Commerce Cloud JAMStack implementation
 
 ## Introduction
-[JAMStack](https://jamstack.org/), it is like walking backward towards the history of web development technology, except this is for good reason. In 90s web development, we were all excited when web servers started processing web requests programetically and rendered htmls. Server side programming although provided much flexibility is not as fast as static html. Now armed with much better client side technolgy and build tools, JAMStack architecture bringing back incredibly fast static page rendering.
+[JAMStack](https://jamstack.org/), it is like walking backward towards the history of web development technology, except this is for good reason. In 90s web development, we were all excited when web servers started processing web requests programetically and rendered dynamic htmls. Server side programming although provided much flexibility is not as fast as static html. Now armed with much better client side technology and build & Deployment tools, JAMStack architecture bringing back incredibly fast static page rendering.
 
 In this project I built an Episerve B2B Commerce Cloud Storefront using JAMStack archtecture. I built the website using GatsbyJs and deployed in [Surge](https://surge.sh/) and [Netlify](https://www.netlify.com/). This is a catalog only storefront works as the below animation shows. There are bunch of products renederd from Epi B2B Commerce Cloud on the home page. You can navigate to product detail page and see products by category by clicking on the category link on products on the home page.
 
@@ -20,7 +20,14 @@ On the storefront application source-plugin-insite has been referenced in gatsby
 * Open command prompt
 * Change directory to project folder
 * Run the command 'npm install' to install all required packages
-* Run the command 'npm run dev'. This will start GraphQL Server on http://localhost:4000
+* Run the command 'npm run dev'. This will start GraphQL Server at http://localhost:4000
 * Open the browser and go to http://localhost:4000. It should bring up GraphQL Playground.
 ### Running Storefront Locally
-*
+* Clone this repository
+* Open VS Code and open the project folder
+* Open a terminal in VS Code
+* change directory to storefront folder
+* Make sure gatsby-node.js in source-plugin-insite is pointing to GraphQL server http://localhost:4000
+* run the command 'gatsby develop' or 'npm run develop'. This should start the web server at http://localhost:8000
+* Open the browser and go to http://localhost:8000 to launch the application.
+
