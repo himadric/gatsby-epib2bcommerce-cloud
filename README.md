@@ -5,7 +5,7 @@
 
 In this project, I built an Episerver B2B Commerce Cloud Storefront using JAMStack architecture. I built the website using GatsbyJs and deployed it in [Surge](https://surge.sh/) and [Netlify](https://www.netlify.com/). This is a catalog only storefront that works like the below animation shows. There are a bunch of products rendered from Epi B2B Commerce Cloud on the home page. You can navigate to a product detail page by clicking on the product description and see products by category by clicking on the category link on products on the home page.
 
-![](Epi%20B2B%20Commerce%20Cloud%20Storefron%20Animation.gif)
+![Epi B2B Commerce Cloud Storefront](Epi%20B2B%20Commerce%20Cloud%20Storefron%20Animation.gif)
 
 ## Implementation Approach
 For the storefront to show the products from the eCommerce system, we need to get data from the eCommerce system and convert it to Gatsby's GraphQL schema format. Epi B2B Commerce is a headless commerce platform and supports access to the platform via Restful APIs. Although it is possible to consume data in Gatsby using Rest APIs, it is much easier if data are presented in the form of a GraphQL query. For this reason, I have used [Epi B2B GraphQL Wrapper](https://github.com/himadric/graphql-wrapper-epib2bcommerce) that I have implemented earlier. These GraphQL APIs are hosted as a separate process (locally runs on http://localhost:4000 or in Heroku) and return data from the eCommerce system.
@@ -51,3 +51,6 @@ Deploying to Netlify takes little more work
 * On the Netlify side, I used the below build settings
 ![netlify build settings](netlify-build-settings.png)
 * Once deployed successfully you will be provided a link for the website. For my build it was https://5fee330f42d898ff3a79e845--wonderful-panini-74271a.netlify.app/
+
+I ran a Chrome Lighthouse report on the site deployed in Netlify. The report came out to be pretty good.
+![performance](performance.png)
