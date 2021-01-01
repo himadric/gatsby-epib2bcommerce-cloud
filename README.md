@@ -38,6 +38,13 @@ Easiest way to deploy a static site is to deploy it in [Surge](https://surge.sh/
 * Build the storefront site using command 'npm run build'. This will create all the static files in public folder under storefront project.
 * Login to Surge using command 'surge login' assuming that you have downloaded surge cli and created the account already.
 * Change folder to 'public' folder.
-* Run the command 'surge'. This will deploy the site and provide a random link. For me surge returned the link https://flagrant-bears.surge.sh/.
-
-* 
+* Run the command 'surge'. This will deploy the site and provide a random link. For me surge returned the link https://flagrant-bears.surge.sh/
+## Deploying to Netlify
+Deploying to Netlify takes little more work
+* Create an account in Netlify
+* You need to fork the repository or create your own repository and connect the repository to your Netlify account.
+* I had some trouble deploying code initially to Netlify becuase there are two projects, source-plugin-insite and storefront (has a reference to plugin project). Build for source-plugin-insite was failing because script failed to install install node modules. After I made the below change in the script in package.json build started working. 
+```
+    "install-plugin": "cd ../source-plugin-insite && npm i",
+    "build": "npm run install-plugin && gatsby build",
+```
