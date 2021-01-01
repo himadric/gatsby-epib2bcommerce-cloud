@@ -48,3 +48,6 @@ Deploying to Netlify takes little more work
     "install-plugin": "cd ../source-plugin-insite && npm i",
     "build": "npm run install-plugin && gatsby build",
 ```
+* On the Netlify side I used below build settings
+![netlify build settings](netlify-build-settings.png)
+* Once deployed successfully you will be provided a link for the website. For my build it was https://5fee330f42d898ff3a79e845--wonderful-panini-74271a.netlify.app/
