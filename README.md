@@ -13,3 +13,14 @@ For the storefront to show the products from ecommerce system, we need to get da
 For converting data to Gatsby Nodes, we need a Source Plugin like Gatsby Source Plugin for File System or Markdown Source Plugin. I have created a Source Plugin called source-plugin-insite. This plugin queries the wrapper and converts data to Gatsby Nodes. Two types of nodes are added through the plugin, Product nodes and Category nodes and they are related via child/parent relationship. I also created remote file node for product and category image which later used to optimize remote images using gatsby-image package.
 
 On the storefront application source-plugin-insite has been referenced in gatsby-config.js. All products are displayed on the home page using page query. Product Detail and Products by Category pages were created using templates. These pages get created at the build time using Gatsby createPage API in gatsby-node.js.  
+
+## Running Application Locally
+### Running GraphQL Server Locally
+* Clone [Epi B2B GraphQL Wrapper](https://github.com/himadric/graphql-wrapper-epib2bcommerce)
+* Open command prompt
+* Change directory to project folder
+* Run the command 'npm install' to install all required packages
+* Run the command 'npm run dev'. This will start GraphQL Server on http://localhost:4000
+* Open the browser and go to http://localhost:4000. It should bring up GraphQL Playground.
+### Running Storefront Locally
+*
