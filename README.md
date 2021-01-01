@@ -53,4 +53,4 @@ Deploying to Netlify takes little more work
 * Once deployed successfully you will be provided a link for the website. For my build it was https://5fee330f42d898ff3a79e845--wonderful-panini-74271a.netlify.app/
 
 I ran a Chrome Lighthouse report on the site deployed in Netlify. The report came out to be pretty good.
-![performance](performance.png)
+![performance](peformance.png)
