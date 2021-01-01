@@ -8,4 +8,4 @@ In this project I built an Episerve B2B Commerce Cloud Storefront using JAMStack
 ![](Epi%20B2B%20Commerce%20Cloud%20Storefron%20Animation.gif)
 
 ## Implementation Approach
-For the storefront to show the products from ecommerce system, we need to get data from ecommerce system and convert it Gatsby's GraphQL schema format.
+For the storefront to show the products from ecommerce system, we need to get data from ecommerce system and convert it Gatsby's GraphQL schema format. Epi B2B Commerce is a headless commerce platform and supports access to the platform via Restful APIs. Although it is possible to consume data in Gatsby using Rest APIs, it is much easier if data are presented in form GraphQL query. For this reason I have used [Epi B2B GraphQL Wrapper](https://github.com/himadric/graphql-wrapper-epib2bcommerce) that I have implemented ealier.  
