@@ -31,5 +31,13 @@ On the storefront application source-plugin-insite has been referenced in gatsby
 * run the command 'gatsby develop' or 'npm run develop'. This should start the web server at http://localhost:8000
 * Open the browser and go to http://localhost:8000 to launch the application.
 ## Deploying to Surge
-Easiest way to deploy a static site is to deply it in [Surge](https://surge.sh/). Watch the below video to learn how to create an account in Surge and how to deploy the site.
+Easiest way to deploy a static site is to deploy it in [Surge](https://surge.sh/). Watch the below video to learn how to create an account in Surge and how to deploy the site.
+
 [![Surge deployment](https://img.youtube.com/vi/-EjdMvYPSVU/0.jpg)](https://www.youtube.com/watch?v=-EjdMvYPSVU)
+
+* Build the storefront site using command 'npm run build'. This will create all the static files in public folder under storefront project.
+* Login to Surge using command 'surge login' assuming that you have downloaded surge cli and created the account already.
+* Change folder to 'public' folder.
+* Run the command 'surge'. This will deploy the site and provide a random link. For me surge returned the link https://flagrant-bears.surge.sh/.
+
+* 
