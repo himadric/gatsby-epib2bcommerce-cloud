@@ -11,8 +11,6 @@
     "gatsby",
     "gatsby-plugin"
   ],
-  "author": "Kyle Gill <kyle.robert.gill@gmail.com>",
-  "license": "0BSD",
   "dependencies": {
     "apollo-cache-inmemory": "^1.6.6",
     "apollo-client": "^2.6.10",
