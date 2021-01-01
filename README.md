@@ -32,4 +32,4 @@ On the storefront application source-plugin-insite has been referenced in gatsby
 * Open the browser and go to http://localhost:8000 to launch the application.
 ## Deploying to Surge
 Easiest way to deploy a static site is to deply it in [Surge](https://surge.sh/). Watch the below video to learn how to create an account in Surge and how to deploy the site.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-EjdMvYPSVU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![](https://youtu.be/-EjdMvYPSVU)
