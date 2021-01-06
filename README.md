@@ -1,7 +1,7 @@
 # Episerver B2B Commerce Cloud JAMStack implementation
 
 ## Introduction
-[JAMStack](https://jamstack.org/), is like walking back towards the history of web development technology, except this is for good reason. In 90s web development, we were all excited when web servers started processing web requests programmatically and generated dynamic content. Server-side programming although provided much flexibility is not as fast as static content. Now armed with much better client-side technology and build & deployment tools, JAMStack architecture can achieve incredibly fast website performance.
+[JAMStack](https://jamstack.org/) is like walking back towards the history of web development technology, except this is for good reason. In 90s web development, we were all excited when web servers started processing web requests programmatically and generated dynamic content. Server-side programming although provided much flexibility is not as fast as static content. Now armed with much better client-side technology and build & deployment tools, JAMStack architecture can achieve incredibly fast website performance.
 
 In this project, I built an Episerver B2B Commerce Cloud Storefront using JAMStack architecture. I built the website using GatsbyJs and deployed it in [Surge](https://surge.sh/) and [Netlify](https://www.netlify.com/). This is a catalog only storefront that works like the below animation shows. There are a bunch of products rendered from Epi B2B Commerce Cloud on the home page. You can navigate to a product detail page by clicking on the product description and see products by category by clicking on the category link on products on the home page.
 
